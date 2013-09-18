@@ -1,0 +1,66 @@
+body
+{
+  background-color: lightgrey;
+}
+
+div.diag_menu
+{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 4px 5px grey inset;
+  margin: 10px 10px;
+  width: 15%;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  resize: both;
+}
+
+div.diag_menu p
+{
+    margin: 0px;
+    font-weight: bold;
+}
+
+div.diag_menu p:hover
+{
+    background-color: grey;
+}
+
+table.diag{
+  text-align: center;
+  padding: 5px 0;
+}
+
+table.diag td, th
+{
+  padding: 3px;
+}
+
+div.diag_varblock
+{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 4px 5px grey inset;
+  margin: 10px 10px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  position: fixed;
+}
+
+div.diag_varstat
+{
+  margin: 20px;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+div.diag_varplot
+{
+  text-align: center;
+}

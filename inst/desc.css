@@ -1,0 +1,67 @@
+body
+{
+  background-color: lightgrey;
+}
+
+div.desc
+{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 4px 5px grey inset;
+  margin: 20px 10px;
+  padding: 10px;
+  display: inline-block;
+  overflow: hidden;
+  resize: both;
+}
+
+table.desc
+{
+  border-collapse: collapse;
+	font-family: "Tahoma","Trebuchet MS","Verdana","Myriad Web","sans-serif";
+	font-size: .75em;
+}
+
+table.desc caption
+{
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  text-align: left;
+}
+
+table.desc thead, th
+{
+  padding: 0 3em;
+  border-bottom: 1px solid black;
+  height: 2em;
+  font-weight: normal;
+  vertical-align: top;
+  text-align: center;
+}
+
+table.desc tfoot
+{
+  font-style: italic;
+  font-size: small;
+  border-top: 1px solid black;
+}
+
+table.desc tbody td.var
+{
+  padding-top: 1em;
+  padding-left: 0;
+  font-weight: bold;
+  text-align: left;
+}
+
+table.desc tbody td.level
+{
+  padding-left: 1em;
+  text-align: left;
+}
+
+table.desc tbody td
+{
+  text-align: center;
+  vertical-align: bottom;
+}
